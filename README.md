@@ -96,7 +96,5 @@ export BIGQUERYPROJECT="<BigQuery Project Name. It will be ignored if TARGETDATA
 ```
 
 ## Configuration of Docker deployment
-This is not yet tested and validated. The same environment variables are applied here. The environment variable must be defined either using Dockerfile or docker command line when the docker image is instantiated to start running. One way to do this would be to create a env.list file containing the variables from above and then running the following command to start your deployment:
-```
-docker run --env-file env.list --name omoponfhir -p 8080:8080 -d omoponfhir:latest
+This is already tested and validated by me (Juan Diego González Serrano). Follow the guide uploaded as a PDF to deploy the entire system by cloning some repositories and running comands.
 ```
